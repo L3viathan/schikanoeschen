@@ -33,9 +33,9 @@ has a face-up card and one to four face-down cards (see illustration). These
 stacks are arranged such that all cards are permanently visible, all other
 stacks are neatly squared such that only the top card is visible.
 
-Stacks E-H of both sides are considered the board, stacks D are the →final
-stacks, stacks A-C are considered stacks of the player sitting in front of
-them.
+Stacks E-H of both sides are considered the board, stacks D are the [→final
+stacks](#final-stacks), stacks A-C are considered stacks of the player sitting
+in front of them.
 
 The remaining cards become the main stack (stack A), between the main stack and
 the side stack, leave a space for another stack, the discard stack (stack B).
@@ -51,10 +51,10 @@ the same, start over with shuffling.
 
 ##A Turn/States
 At all times, one player is the active player and the other player is the
-passive player. The only thing the passive player can do is knock (→Knocking).
+passive player. The only thing the passive player can do is knock ([→Knocking](#knocking)).
 
 The active player can move cards from one of her stacks (main, discard, or side
-stack) and from the board to the board, to the →final stacks, and to main and
+stack) and from the board to the board, to the [→final stacks](#final-stacks), and to main and
 discard stack of the passive player.
 
 The active player can never take cards from the private stacks of the passive

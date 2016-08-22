@@ -38,7 +38,7 @@ Diese vier Stapel werden so hingelegt, dass jederzeit alle Karten sichtbar sind.
 Bei allen anderen Stapeln ist jederzeit nur die oberste Karte sichtbar.
 
 Die Stapel E-H auf beiden Seiten werden als Feld bezeichnet, die D-Stapel sind
-→Endstapel, Stapel A-C werden als Stapel derjenigen Spielerin betrachtet, die
+[→Endstapel](#endstapel), Stapel A-C werden als Stapel derjenigen Spielerin betrachtet, die
 vor ihnen sitzt.
 
 Die verbleibenden Karten werden zum Hauptstapel (Stapel A). Zwischen dem
@@ -61,7 +61,7 @@ passive Spielerin. Das einzige, was die aktive Spielerin machen kann, ist
 klopfen.
 
 Die aktive Spielerin kann Karten von einem ihrer eigenen Stapel (A, B, oder C)
-und vom Spielfeld auf einen Stapel des Spielfelds, einen →Endstapel, und auf die
+und vom Spielfeld auf einen Stapel des Spielfelds, einen [→Endstapel](#endstapel), und auf die
 Stapel B und C der passiven Spielerin legen.
 
 Die aktive Spielerin kann keine Karten von den Stapeln A-C der Gegnerin nehmen.
