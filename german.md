@@ -1,5 +1,4 @@
 # Schikanöschen
-
 Schikanöschen
 ([[ˌʃikanˈøzχɛn]](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet))
 ist ein Spiel für 2 gegnerische Spielerinnen.
@@ -38,52 +37,35 @@ Diese vier Stapel werden so hingelegt, dass jederzeit alle Karten sichtbar sind.
 Bei allen anderen Stapeln ist jederzeit nur die oberste Karte sichtbar.
 
 Die Stapel E-H auf beiden Seiten werden als Feld bezeichnet, die D-Stapel sind
-[→Endstapel](#endstapel), Stapel A-C werden als Stapel derjenigen Spielerin betrachtet, die
-vor ihnen sitzt.
+[→Endstapel](#endstapel), Stapel A-C werden als Stapel derjenigen Spielerin
+betrachtet, die vor ihnen sitzt.
 
 Die verbleibenden Karten werden zum Hauptstapel (Stapel A). Zwischen dem
 Hauptstapel und dem Seitenstapel bleibt Platz für einen weiteren Stapel, den
 Ablagestapel (Stapel B). Die oberste Karte auf dem Seitenstapel wird dann
-umgedreht und die Spielerin mit der höheren Karte fängt als aktive Spielerin
-an. Ein Ass ist höher als andere normale Karten, ein Joker höher als ein Ass.
-Wenn zwei Karten den gleichen Wert haben, ist Kreuz höher als Pik höher als
-Herz höher als Karo.
+umgedreht und die Spielerin mit der höheren Karte fängt an. Ein Ass ist höher
+als andere normale Karten, ein Joker höher als ein Ass.  Wenn zwei Karten den
+gleichen Wert haben, ist Kreuz höher als Pik höher als Herz höher als Karo.
 
 Wenn die beiden Karten identisch sind, entscheiden die beiden Karten auf Stapel
 E, und wenn diese ebenfalls identisch sind, Stapel F, G, und H, in dieser
 Reihenfolge. Wenn alle offenen Karten jeweils identisch sind, wird alles nochmal
 gemischt.
 
+Die Spielerin, die das Spiel beginn, fängt als aktive Spielerin an, die andere
+als passive Spielerin. Jederzeit ist genau eine der Spielerinnen aktiv, die
+andere passiv.
 
-##Ein Zug/Zustände
-Jederzeit ist eine Spielerin die aktive Spielerin, und die andere Spielerin die
-passive Spielerin. Das einzige, was die aktive Spielerin machen kann, ist
-klopfen.
 
-Die aktive Spielerin kann Karten von einem ihrer eigenen Stapel (A, B, oder C)
-und vom Spielfeld auf einen Stapel des Spielfelds, einen [→Endstapel](#endstapel), und auf die
-Stapel B und C der passiven Spielerin legen.
-
-Die aktive Spielerin kann keine Karten von den Stapeln A-C der Gegnerin nehmen.
-
-Wenn die aktive Spielerin eine Karte vom Hauptstapel nimmt und es keinen freien
-Platz für sie gibt (oder wenn sie die Karte nirgendwo anders hinlegen möchte),
-legt sie die Karte offen auf den Ablagestapel. Ihr Zug ist dann beendet und sie
-ist die aktive, die andere die passive Spielerin.
-
-Wenn die Spielerin eine Karte vom Hauptstapel nehmen möchte, er aber leer ist
-(und der Ablagestapel nicht), nimmt sie den Ablagestapel, dreht ihn um, und
-macht ihn ohne zu mischen zum neuen Hauptstapel. Danach nimmt sie sofort eine
-Karte vom Hauptstapel; es ist eine einzige Aktion.
-
-Eine Spielerin kann also Abfolgen der folgenden Aktionen vollziehen:
+##Aktionen
+Die aktive Spielerin kann Abfolgen der folgenden Aktionen vollziehen:
 
 - Eine Karte vom Seitenstapel, Ablagestapel oder einem Feldstapel auf einen
-  Feldstapel, einen Endstapel, oder den Seiten- oder Ablagestapel der anderen
-  Spielerin legen.
+  Feldstapel, einen [→Endstapel](#endstapel), oder den Seiten- oder
+  Ablagestapel der anderen Spielerin legen.
 - Eine Karte vom Hauptstapel umdrehen (falls nötig, durch vorheriges Umdrehen
-  des Ablagestapels) und sie auf einen Feldstapel, einen Endstapel, oder den
-  Seiten- oder Ablagestapel der Gegnerin legen.
+  des Ablagestapels, ohne zu mischen) und sie auf einen Feldstapel, einen
+  Endstapel, oder den Seiten- oder Ablagestapel der Gegnerin legen.
 - Einen Joker von einem Feldstapel, oder einem eigenen Haupt-, Seiten- oder
   Ablagestapel aus dem Spiel nehmen.
 - Eine verdeckte Karte auf der (relativ) rechten Seite des Feldes aufdecken.
@@ -91,6 +73,9 @@ Eine Spielerin kann also Abfolgen der folgenden Aktionen vollziehen:
   des Ablagestapels) und sie auf den Ablagestapel legen.
 
 Keine anderen Dinge sind Aktionen, nur (versuchte) Aktionen sind klopfbar.
+
+Die aktive Spielerin kann niemals Karten von den privaten Stapeln der passiven
+Spielerin nehmen.
 
 ##Karten bewegen
 Auf dem Feld können Karten auf leere Stapel oder auf verdeckte Karten gelegt
@@ -114,17 +99,13 @@ die oberste Karte aufgedeckt werden. Dieses Umdrehen der obersten Karte des
 Seitenstapels ist eine Nicht-Aktion und kann jederzeit legal vollzogen werden
 (d.h. die passive Spielerin kann deswegen nie klopfen).
 
-Eine Spielerin kann eine verdeckte oberste Karte auf einem ihrer eigenen
-Feldstapel aufdecken. Wenn ein Joker gefunden wird, kann er als Aktion aus dem
-Spiel entfernt werden.
-
-##Endstapel Die Stapel in der Mitte werden "Endstapel" genannt, weil eine
-Karte, die einmal auf sie gelegt wurde, dort für immer bleibt. Wenn ein Ass
-bewegt werden kann, muss es auf einen der (leeren) Endstapel gelegt werden.
-Wenn die nächst-höhere Karte bewegbar ist (die entsprechende Zwei), muss sie
-auf den Endstapel gelegt werden und so weiter. Immer wenn eine Karte auf einen
-Endstapel gelegt werden kann, muss es getan werden, und keine anderen Aktionen
-können vollzogen werden.
+##Endstapel
+Die Stapel in der Mitte werden "Endstapel" genannt, weil eine Karte, die einmal
+auf sie gelegt wurde, dort für immer bleibt. Wenn ein Ass bewegt werden kann,
+muss es auf einen der (leeren) Endstapel gelegt werden.  Wenn die nächst-höhere
+Karte bewegbar ist (die entsprechende Zwei), muss sie auf den Endstapel gelegt
+werden und so weiter. Immer wenn eine Karte auf einen Endstapel gelegt werden
+kann, muss es getan werden, und keine anderen Aktionen können vollzogen werden.
 
 Karten vom Feld haben Priorität über Karten von eigenen Stapeln, d.h. wenn zwei
 Karten zu einem Endstapel bewegt werden müssen, eine davon auf dem Feld und
