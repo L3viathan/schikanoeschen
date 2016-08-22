@@ -1,4 +1,4 @@
-# Schikanöschen
+#Schikanöschen
 
 Schikanöschen is a game played by 2 opposing players.
 
@@ -20,7 +20,7 @@ player cut the deck of their opponent and then take their deck in their hands.
 ![Illustration of the initial setup and labels of the stacks](schikanoeschen.png)
 
 Both player then deal 13 cards face-down on a stack, this stack is placed on their
-side towards the right (stack C).
+side towards the right (the side stack; stack C).
 
 Using the remaining cards, the players then deal four cards seperately, vertically,
 in the middle towards the right (stacks E-H). A face-up card is placed on the top-most
@@ -34,11 +34,13 @@ stacks are neatly squared such that only the top card is visible.
 Stacks E-H of both sides are considered the board, stacks D are the →final stacks,
 stacks A-C are considered stacks of the player sitting in front of them.
 
-The remaining cards become the main stack (stack A). The top card on stack C is
-then turned around and the player with the higher card begins as the active player.
-An ace is considered higher than other normal cards, a joker is higher than an ace.
-If the two values are the same, then clubs is better than spades is better than
-hearts is better than diamonds.
+The remaining cards become the main stack (stack A), between the main stack and
+the side stack, leave a space for another stack, the discard stack (stack B).
+The top card on the side stack is then turned around and the player with the
+higher card begins as the active player.  An ace is considered higher than
+other normal cards, a joker is higher than an ace.  If the two values are the
+same, then clubs is better than spades is better than hearts is better than
+diamonds.
 
 If the two cards are identical, the cards on stack E decide, and if those are
 identical two, stack F, G, and H, in that order. If all open cards are exactly
@@ -54,18 +56,34 @@ player.
 
 The active player can never take cards from the stacks A-C of the passive player.
 
-If the active player takes a card from stack A and there's no other place to put
-it (or if she chooses not to put it somewhere else), the card is put face-up on
-stack B. This ends her turn, makes the other player the active player and her the
-passive one.
+If the active player takes a card from the main stack and there's no other
+place to put it (or if she chooses not to put it somewhere else), the card is
+put face-up on stack B. This ends her turn, makes the other player the active
+player and her the passive one.
 
-Whenever the player wants to turn around a card from stack A, but it is empty
-(but stack B is not), she turns around stack B, turning it into a new stack A,
-and leaving stack B empty. This has to be immediately followed by taking and turning
-around the top card of stack A; it is a single action. The stack is not shuffled.
+Whenever the player wants to turn around a card from the main stack, but it is
+empty (but the discard stack is not), she turns around the discard stack,
+turning it into a new main stack, and leaving the discard stack empty. This has
+to be immediately followed by taking and turning around the top card of the
+main stack; it is a single action. The stack is not shuffled.
+
+To summarize, a player can perform sequences of the following actions:
+
+- Moving a card from the side stack, discard stack or a stack of the board to
+a stack of the board, a final stack, or the side stack or discard stack of the other player.
+- Turning over a card from the main stack (if necessary, by turning around the
+discard stack first) and putting it on a stack of the board, a final stack, or
+the discard or side stack of the other player.
+- Taking a joker out of the game from a board stack, or their own main, side or
+discard stacks.
+- Turning over a face-down card on the (relative) right side of the board.
+- Turning over a card from the main stack (if necessary, by turning around the
+discard stack first) and putting it on the discard stack.
+
+No other things are actions, only (attempted) actions are knockable.
 
 ##Moving cards
-On the board, cards can be put on empty slots, on a face-down card. A card can
+On the board, cards can be put on empty slots, or on a face-down card. A card can
 also be placed on a face-up stack card if the following three conditions apply:
 
 - The card being placed is of a different color (red vs. black) than the stack
@@ -74,13 +92,18 @@ card
 - There is either no face-down card in the stack, or the amount of face-up cards
 is no more than four after the card would have been placed down.
 
-Cards can be moved on opponent stacks (B and C) if the stack card is one lower or
-one higher than the card that is being placed, and they have the same suit.
+Cards can be moved on opponent stacks (side and discard stack) if the stack
+card is one lower or one higher than the card that is being placed, and they
+have the same suit.
 
-Whenever a player moves the last face-up card from her stack C, the top-card has
-to be turned face-up. This turning of the top card of stack C is a non-action and
-can be done at any time legally (i.e. the passive player can never knock because
-of it).
+Whenever a player moves the last face-up card from her side stack, the top-card
+has to be turned face-up. This turning of the top card of the side stack is a
+non-action and can be done at any time legally (i.e. the passive player can
+never knock because of it).
+
+A player can choose to turn over a facedown-card on top of a board stack, but
+only on their side. When a joker is encountered anywhere, it can be removed
+from the game as an action.
 
 ##Final stacks
 The stacks in the middle are called "final stacks", because any card that has
@@ -124,12 +147,23 @@ again, they lose the game.
 The game ends when a player has all board cards on her right side face-up, and
 she has no cards in her stacks. That player is the winning player.
 
-##Edgecases
-Since turning around stack B and subsequently taking a card from stack A is
-considered a single action, merely turning around stack B is knockable. It usually
-is anyways because touching stack B is knockable unless the required action is
-moving a card from stack B to a final stack.
+It can happen that a game becomes stuck and no more progress is made. A player
+can offer the other one a remis, if the other player accepts the game ends in a
+draw.
 
-If the active player has a single card left in their own stacks, and moving it either
-to the board in general, or not moving it to a final stack is knockable, and the
-passive player knocks, the card is returned to the originating stack.
+##Edgecases
+Since turning around the discard stack and subsequently taking a card from the
+main stack is considered a single action, merely turning around the discard
+stack is knockable. It usually is anyways because touching the discard stack is
+knockable unless the required action is moving a card from the stack to a final
+stack.
+
+If the active player has a single card left in their own stacks, and moving it
+either to the board in general, or not moving it to a final stack is knockable,
+and the passive player knocks, the card is returned to the originating stack.
+
+If there are no cards in the side stack left, no cards can be put on it anymore.
+
+If there are no cards in the main+side stacks anymore, a player signals the end
+of their move by knocking on the table. This can't be mistaken for a regular
+knock, since they are an active player.
