@@ -40,7 +40,7 @@ in front of them.
 The remaining cards become the main stack (stack A), between the main stack and
 the side stack, leave a space for another stack, the discard stack (stack B).
 The top card on the side stack is then turned around and the player with the
-higher card begins as the active player.  An ace is considered higher than
+higher card begins. An ace is considered higher than
 other normal cards, a joker is higher than an ace.  If the two values are the
 same, then clubs is better than spades is better than hearts is better than
 diamonds.
@@ -49,43 +49,31 @@ If the two cards are identical, the cards on stack E decide, and if those are
 identical two, stack F, G, and H, in that order. If all open cards are exactly
 the same, start over with shuffling.
 
-##A Turn/States
-At all times, one player is the active player and the other player is the
-passive player. The only thing the passive player can do is knock ([→Knocking](#knocking)).
+The player that starts the game starts as the active player, the other one as
+the passive player. At all times, one of the players is active, the other one
+passive.
 
-The active player can move cards from one of her stacks (main, discard, or side
-stack) and from the board to the board, to the [→final stacks](#final-stacks), and to main and
-discard stack of the passive player.
+##Actions
+When active, a player can perform sequences of the following actions:
+
+- Moving a card from the side stack, discard stack or a stack of the board to a
+  stack of the board, a [→final stack](#final-stacks), or the side stack or
+  discard stack of the other player.
+- Turning over a card from the main stack (if necessary, by turning around the
+  discard stack first, without shuffling) and putting it on a stack of the board,
+  a final stack, or the discard or side stack of the other player.
+- Taking a joker out of the game from a board stack, or their own main, side or
+  discard stacks.
+- Turning over a face-down card on the (relative) right side of the board, if
+  it's the top card.
+- Turning over a card from the main stack (if necessary, by turning around the
+  discard stack first) and putting it on the discard stack. This makes the
+  active player the passive one and the previously passive one the active one.
+
+No other things are actions, only (attempted) actions are knockable.
 
 The active player can never take cards from the private stacks of the passive
 player.
-
-If the active player takes a card from the main stack and there's no other
-place to put it (or if she chooses not to put it somewhere else), the card is
-put face-up on the discard stack. This ends her turn, makes the other player
-the active player and her the passive one.
-
-Whenever the player wants to turn around a card from the main stack, but it is
-empty (but the discard stack is not), she turns around the discard stack,
-turning it into a new main stack, and leaving the discard stack empty. This has
-to be immediately followed by taking and turning around the top card of the
-main stack; it is a single action. The stack is not shuffled.
-
-To summarize, a player can perform sequences of the following actions:
-
-- Moving a card from the side stack, discard stack or a stack of the board to a
-  stack of the board, a final stack, or the side stack or discard stack of the
-  other player.
-- Turning over a card from the main stack (if necessary, by turning around the
-  discard stack first) and putting it on a stack of the board, a final stack,
-  or the discard or side stack of the other player.
-- Taking a joker out of the game from a board stack, or their own main, side or
-  discard stacks.
-- Turning over a face-down card on the (relative) right side of the board.
-- Turning over a card from the main stack (if necessary, by turning around the
-  discard stack first) and putting it on the discard stack.
-
-No other things are actions, only (attempted) actions are knockable.
 
 ##Moving cards
 On the board, cards can be put on empty slots, or on a face-down card. A card
@@ -106,11 +94,7 @@ have the same suit.
 Whenever a player moves the last face-up card from her side stack, the top card
 has to be turned face-up. This turning of the top card of the side stack is a
 non-action and can be done at any time legally (i.e. the passive player can
-never knock because of it).
-
-A player can choose to turn over a facedown-card on top of a board stack, but
-only on their side. When a joker is encountered anywhere, it can be removed
-from the game as an action.
+never [→knock](#knocking) because of it).
 
 ##Final stacks
 The stacks in the middle are called "final stacks", because any card that has
