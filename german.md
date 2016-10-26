@@ -87,7 +87,7 @@ folgenden drei Bedingungen erfüllt sind:
 - Die Karte hat einen Kartenwert eins unter dem der obersten Karte auf dem
   Stapel (z.B. Karo-Zwei auf Pik-Drei)
 - Es gibt entweder keine verdeckten Karten in dem Stapel, oder die Anzahl
-  verdeckter Karten ist nicht größer als vier, nachdem die Karte abgelegt
+  offener Karten ist nicht größer als vier, nachdem die Karte abgelegt
   würde.
 
 Karten können auf gegnerische Stapel (Ablage- und Seitenstapel) wenn die
@@ -148,7 +148,7 @@ hat, und sie keine Karten mehr in ihren eigenen Stapeln hat. Diese Spielerin
 gewinnt.
 
 Es kann passieren, dass ein Spiel keinen Fortschritt mehr macht. Eine Spielerin
-kann dann der anderen ein Remis anbieten, wenn die andere Spielerin akzeptiert
+kann dann der anderen ein Remis anbieten, wenn die andere Spielerin akzeptiert,
 endet das Spiel in einem Unentschieden.
 
 ##Härtefälle
