@@ -159,3 +159,20 @@ If there are no cards in the side stack left, no cards can be put on it anymore.
 If there are no cards in the main+side stacks anymore, a player signals the end
 of their move by knocking on the table. This can't be mistaken for a regular
 knock, since they are an active player.
+
+##Playing with a chess clock
+Schikanöschen can be played with a chess clock, then the following rules are added:
+
+- In the beginning of the game the chess clock is set to agreed-upon times, but
+  not startet yet. Once the initial state has been dealt out, and it is
+  therefore clear who will start the game, the passive player starts the game
+  by starting the chess clock.
+- When the turn of a player is over, that player switches the chess clock to
+  the opposing side.
+- Whose turn it is is decided _not_ by the chess clock, i.e. if someone forgets
+  to switch the chess clock, they can't complain
+- If A knocks during the turn of B (and the knocking is legitimate), it's the
+  job of B to switch the chess clock. The turn of A immediately starts.
+- If the time runs out on a player, that player lost the game.
+- If during 5 seconds the chess clock is switched more than five times, any
+  player can immediately force a remis.

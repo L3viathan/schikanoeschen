@@ -170,3 +170,21 @@ Wenn keine Karten mehr in den Haupt- und Seitenstapeln übrig sind, signalisiert
 eine Spielerin das Ende ihres Zuges durch Klopfen auf den Tisch. Dies kann
 nicht für ein normales Klopfen gehalten werden, da sie die aktive Spielerin
 ist.
+
+##Spiel mit Schachuhr
+Schikanöschen kann mit Schachuhr gespielt werden, dann gelten folgende Regeln:
+
+- Zu Beginn des Spiels wird die Schachuhr auf festgelegte Zeiten eingestellt,
+  jedoch noch nicht gestartet. Nachdem die Ausgangsposition ausgeteilt wurde
+  und somit ermittelt wurde, wer das Spiel beginnt, startet die passive
+  Spielerin das Spiel, indem sie die Schachuhr startet.
+- Wenn der Zug einer Spielerin beendet ist, betätigt sie die Schachuhr, sodass
+  von nun an die gegnerische Zeit abläuft.
+- Ausschlaggebend dafür, wessen Zug ist, ist _nicht_ die Schachuhr, d.h. wer
+  vergisst, die Schachuhr zu betätigen, kann sich nicht beschweren.
+- Wenn A im Zug von B klopft (und das Klopfen legitim ist), ist es die Aufgabe
+  von B, die Schachuhr zu betätigen. Es ist jedoch dennoch sofort der Zug von
+  A.
+- Läuft die Zeit einer Spielerin ab, hat diese verloren.
+- Wird innerhalb von 5 Sekunden mehr als fünfmal die Richtung gewechselt, kann
+  jede Spielerin sofort ein Remis einfordern.
