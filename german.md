@@ -151,6 +151,10 @@ Es kann passieren, dass ein Spiel keinen Fortschritt mehr macht. Eine Spielerin
 kann dann der anderen ein Remis anbieten, wenn die andere Spielerin akzeptiert,
 endet das Spiel in einem Unentschieden.
 
+Wiederholt sich ein Zustand mehr als einmal über einen Zug hinaus, kann jede
+Spielerin sofort ein Remis einfordern. Der Zustand eines Spiels ist die
+Gesamtheit der Positionen und Orientierungen aller Karten.
+
 ##Härtefälle
 Da das Umdrehen des Ablagestapels und das darauffolgende Nehmen einer Karte vom
 Hauptstapel als eine einzige Aktion betrachtet wird, ist selbst das Umdrehen
@@ -158,10 +162,9 @@ des Ablagestapels klopfbar. Normalerweise ist es das sowieso, da das Berühren
 des Ablagestapels klopfbar ist, wenn die erforderte Aktion nicht das Bewegen
 einer Karte vom Ablagestapel zu einem Endstapel ist.
 
-Wenn die aktive Spielerin nur noch eine Karte in ihren eigenen Stapeln hat, und
-entweder das Bewegen dieser Karte zum Feld allgemein, oder das Nicht-Bewegen
-der Karte zu eiem Endstapel klopfbar ist, und die passive Spielerin klopft,
-wird die Karte zurück auf den ursprünglichen Stapel gelegt.
+Auch eine eigentlich spielbeendende Aktion ist klopfbar, wenn sie es
+normalerweise ebenfalls wäre. Die Aktion wird in dem Fall dann gegebenenfalls
+rückgangig gemacht, und die klopfende Spielerin ist am Zug.
 
 Wenn keine Karten im Seitenstapel übrig sind, können keine Karten mehr auf ihn
 gelegt werden.
