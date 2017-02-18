@@ -143,6 +143,10 @@ It can happen that a game becomes stuck and no more progress is made. A player
 can offer the other one a remis, if the other player accepts the game ends in a
 draw.
 
+If a state is repeated more than once across turns, any player can immediately
+force a remis. The state of a game is the entirety of the positions and
+orientations of all cards.
+
 ##Edgecases
 Since turning around the discard stack and subsequently taking a card from the
 main stack is considered a single action, merely turning around the discard
@@ -150,9 +154,9 @@ stack is knockable. It usually is anyways because touching the discard stack is
 knockable unless the required action is moving a card from the stack to a final
 stack.
 
-If the active player has a single card left in their own stacks, and moving it
-either to the board in general, or not moving it to a final stack is knockable,
-and the passive player knocks, the card is returned to the originating stack.
+Even an action that would normally end the game is knockable, if it would be
+knockable under normal conditions, too. In that case, the action is undone, if
+applicable, and it is the knocking player's turn.
 
 If there are no cards in the side stack left, no cards can be put on it anymore.
 
