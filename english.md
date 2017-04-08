@@ -119,6 +119,12 @@ The passive player can choose to knock on the table in one of three cases:
 - an active player tries to place a card from her side or discard stack to a
   final stack, but a card from the board could be moved to a final stack (by
   merely touching her card)
+- an active player puts a card on a stack on which it cannot be (for example 8
+  of Clubs on 9 of Clubs)
+- the passive player turns over her discard stack
+- the active player turns over more than one card (for example from the main
+  stack)
+- the active player turns over a hidden card in the board of the passive player
 
 The passive player can knock or choose not to knock. In the first case, the
 passive player can also wait until the active player has made the (wrong) move
