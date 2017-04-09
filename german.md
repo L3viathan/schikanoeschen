@@ -125,6 +125,12 @@ klopfen:
 - die aktive Spielerin hätte eine Feldkarte auf einen Endstapel legen müssen,
   aber versucht, eine eigene Karte auf einen Endstapel zu legen (lediglich
   durch das Berühren der anderen Karte)
+- die aktive Spielerin eine Karte auf einen Stapel legt, auf dem sie nicht
+  liegen kann (zum Beispiel Kreuz 8 auf Kreuz 9)
+- die passive Spielerin den Ablagestapel umdreht
+- die aktive Spielerin mehr als eine Karte umdreht (zum Beispiel im Hauptstapel)
+- die aktive Spielerin eine verdeckte Karte im Feld der passiven Spielerin
+  aufdeckt
 
 Die passive Spielerin kann sich aussuchen, ob sie klopfen möchte.  Im ersten
 Fall kann sie auch warten, bis die aktive Spielerin die (falsche) Aktion
