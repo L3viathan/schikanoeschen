@@ -1,14 +1,17 @@
-#Schikanöschen
+# Schikanöschen
+
 Schikanöschen
 ([[ˌʃikanˈøzχɛn]](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet))
 is a game played by 2 opposing players.
 
 
-##Goal
+## Goal
+
 The goal of the game is to get rid of all cards on your side, and have all your
 cards in the middle turned face-up.
 
-##Setup
+## Setup
+
 The game is played with Patience cards, i.e. two full card decks (52 cards + 3
 jokers).  The two decks should be distinguishable by their backs, and are
 ideally half-sized bridge or poker cards.
@@ -53,7 +56,8 @@ The player that starts the game starts as the active player, the other one as
 the passive player. At all times, one of the players is active, the other one
 passive.
 
-##Actions
+## Actions
+
 When active, a player can perform sequences of the following actions:
 
 - Moving a card from the side stack, discard stack or a stack of the board to a
@@ -75,7 +79,8 @@ No other things are actions, only (attempted) actions are knockable.
 The active player can never take cards from the private stacks of the passive
 player.
 
-##Moving cards
+## Moving cards
+
 On the board, cards can be put on empty slots, or on a face-down card. A card
 can also be placed on a face-up stack card if the following three conditions
 apply:
@@ -96,7 +101,8 @@ has to be turned face-up. This turning of the top card of the side stack is a
 non-action and can be done at any time legally (i.e. the passive player can
 never [→knock](#knocking) because of it).
 
-##Final stacks
+## Final stacks
+
 The stacks in the middle are called "final stacks", because any card that has
 been placed there will stay there indefinitely. Whenever an ace can be moved,
 it has to be moved to one of the (empty) final stacks. When the next-highest
@@ -109,7 +115,8 @@ cards that have to be moved to a final stack, one on the board, and one on the
 discard or side stack of a player, the one on the board has to be moved
 (first).
 
-##Knocking
+## Knocking
+
 The passive player can choose to knock on the table in one of three cases:
 
 - an active player would have to move a card to a final stack, but attempts
@@ -141,7 +148,8 @@ Should the passive player knock even though the active player did nothing
 wrong, a single warning is issued against the passive player. Should they knock
 incorrectly again, they lose the game.
 
-##End of the Game
+## End of the Game
+
 The game ends when a player has all board cards on her right side face-up, and
 she has no cards in her stacks. That player is the winning player.
 
@@ -153,7 +161,8 @@ If a state is repeated more than once across turns, any player can immediately
 force a remis. The state of a game is the entirety of the positions and
 orientations of all cards.
 
-##Edgecases
+## Edgecases
+
 Since turning around the discard stack and subsequently taking a card from the
 main stack is considered a single action, merely turning around the discard
 stack is knockable. It usually is anyways because touching the discard stack is
@@ -170,7 +179,8 @@ If there are no cards in the main+side stacks anymore, a player signals the end
 of their move by knocking on the table. This can't be mistaken for a regular
 knock, since they are an active player.
 
-##Playing with a chess clock
+## Playing with a chess clock
+
 Schikanöschen can be played with a chess clock, then the following rules are added:
 
 - In the beginning of the game the chess clock is set to agreed-upon times, but

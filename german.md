@@ -1,13 +1,16 @@
 # Schikanöschen
+
 Schikanöschen
 ([[ˌʃikanˈøzχɛn]](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet))
 ist ein Spiel für 2 gegnerische Spielerinnen.
 
-##Ziel
+## Ziel
+
 Ziel des Spiels ist es, alle Karten auf der eigenen Seite loszuwerden, und alle
 eigenen Karten in der Mitte offen liegen zu haben.
 
-##Spielbeginn
+## Spielbeginn
+
 Das Spiel wird mit Patiencekarten gespielt, also zwei vollen Kartenspielen (52
 Karten + 3 Joker).
 Die zwei Kartenspiele sollten sich auf der Rückseite unterscheiden, und sind
@@ -57,7 +60,8 @@ als passive Spielerin. Jederzeit ist genau eine der Spielerinnen aktiv, die
 andere passiv.
 
 
-##Aktionen
+## Aktionen
+
 Die aktive Spielerin kann Abfolgen der folgenden Aktionen vollziehen:
 
 - Eine Karte vom Seitenstapel, Ablagestapel oder einem Feldstapel auf einen
@@ -77,7 +81,8 @@ Keine anderen Dinge sind Aktionen, nur (versuchte) Aktionen sind klopfbar.
 Die aktive Spielerin kann niemals Karten von den privaten Stapeln der passiven
 Spielerin nehmen.
 
-##Karten bewegen
+## Karten bewegen
+
 Auf dem Feld können Karten auf leere Stapel oder auf verdeckte Karten gelegt
 werden.  Eine Karte kann auch auf eine offene Karte gelegt werden, wenn die
 folgenden drei Bedingungen erfüllt sind:
@@ -99,7 +104,8 @@ die oberste Karte aufgedeckt werden. Dieses Umdrehen der obersten Karte des
 Seitenstapels ist eine Nicht-Aktion und kann jederzeit legal vollzogen werden
 (d.h. die passive Spielerin kann deswegen nie klopfen).
 
-##Endstapel
+## Endstapel
+
 Die Stapel in der Mitte werden "Endstapel" genannt, weil eine Karte, die einmal
 auf sie gelegt wurde, dort für immer bleibt. Wenn ein Ass bewegt werden kann,
 muss es auf einen der (leeren) Endstapel gelegt werden.  Wenn die nächst-höhere
@@ -112,7 +118,8 @@ Karten zu einem Endstapel bewegt werden müssen, eine davon auf dem Feld und
 eine auf dem Seiten- oder Ablagestapel einer Spielerin, muss (zuerst) die
 Feldkarte bewegt werden.
 
-##Klopfen
+## Klopfen
+
 Die passive Spielerin kann, wenn sie will, in den folgenden Fällen auf den Tisch
 klopfen:
 
@@ -148,7 +155,8 @@ Sollte die passive Spielerin klopfen obwohl die aktive Spielerin nichts
 illegales tat, wird eine einzige Warnung ausgesprochen. Sollte sie erneut
 falsch klopfen, verliert sie das Spiel.
 
-##Ende des Spiels
+## Ende des Spiels
+
 Das Spiel ended, wenn eine Spielerin alle Feldkarten ihrer Seite offen liegen
 hat, und sie keine Karten mehr in ihren eigenen Stapeln hat. Diese Spielerin
 gewinnt.
@@ -161,7 +169,8 @@ Wiederholt sich ein Zustand mehr als einmal über einen Zug hinaus, kann jede
 Spielerin sofort ein Remis einfordern. Der Zustand eines Spiels ist die
 Gesamtheit der Positionen und Orientierungen aller Karten.
 
-##Härtefälle
+## Härtefälle
+
 Da das Umdrehen des Ablagestapels und das darauffolgende Nehmen einer Karte vom
 Hauptstapel als eine einzige Aktion betrachtet wird, ist selbst das Umdrehen
 des Ablagestapels klopfbar. Normalerweise ist es das sowieso, da das Berühren
@@ -180,7 +189,8 @@ eine Spielerin das Ende ihres Zuges durch Klopfen auf den Tisch. Dies kann
 nicht für ein normales Klopfen gehalten werden, da sie die aktive Spielerin
 ist.
 
-##Spiel mit Schachuhr
+## Spiel mit Schachuhr
+
 Schikanöschen kann mit Schachuhr gespielt werden, dann gelten folgende Regeln:
 
 - Zu Beginn des Spiels wird die Schachuhr auf festgelegte Zeiten eingestellt,
