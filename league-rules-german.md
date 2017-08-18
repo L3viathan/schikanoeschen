@@ -7,7 +7,7 @@ bestimmten Slack-Teams, das ungenannt bleibt.
 
 Durch das Spielen eines Ligaspiels gegen ein aktives Mitglied der Liga wird ein
 Nicht-Mitglied zu einem Mitglied der Liga. Neue Mitglieder fangen mit dem Rang
-1000 an. Wenn ein Mitglied inaktiv wird (indem es zwei Monate lang keine
+1000 an. Wenn ein Mitglied inaktiv wird (indem es acht Wochen lang keine
 Ligaspiele spielt, oder es explizit erwünscht), wird es als solches markiert
 und nicht mehr in der offiziellen Rangliste aufgeführt, ihr Rang jedoch bleibt
 gespeichert. Wenn es wünscht, wieder aktiv zu werden, oder durch das Spielen
@@ -39,6 +39,26 @@ folgenden Formel berechnet.
 
 @l3viathan ist für die technische Umsetzung von Speicherung und Berechnung der
 Ränge verantwortlich.
+
+## Aktivitätsstrafen
+
+Inaktivität über einen längeren Zeitraum wird durch Punktabzug bestraft. Diese
+Strafe betrifft nur aktive Mitglieder. Außerdem gibt es eine feste Strafe für
+das inaktiv werden.
+
+- Wenn ein Mitglied inaktiv wird (außer dies geschieht durch die achtwöchige
+  Frist), wird seine Punktzahl um 10 reduziert. Dies wird nicht nachträglich
+  auf bereits inaktive Mitglieder angewendet.
+- Wenn ein Mitglied in x aufeinanderfolgenden Wochen (eine Woche in diesem
+  Sinne ist das Intervall von Montag, 0:00 bis Sonntag, 24:00) keine
+  Ligaspiele gespielt hat, wird seine Punktzahl um x^2 (1, 4, 9, 16, ...)
+  reduziert. Nachdem die Punktzahl um 64 reduziert wurde (für die achte
+  aufeinanderfolgende Woche), wird es automatisch als inaktiv markiert und
+  verliert keine weiteren Punkte durch Inaktivität.
+
+@l3viathan ist für die Einhaltung dieser Regeln verantwortlich, umsetzbar
+entweder durch manuelle Anpassung der Punkte, oder die Automatisierung der
+Aufgabe.
 
 ## Änderung der Spielregeln
 
