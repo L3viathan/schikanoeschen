@@ -7,7 +7,7 @@ certain Slack team that shall remain unnamed.
 
 Through playing a ranked game against an active member of the league, one
 becomes a member of the league. New members start with rank 1000. When a player
-becomes inactive (by not having played a league game in two months, or by
+becomes inactive (by not having played a league game in eight weeks, or by
 explicit wish), they are marked as such and no longer shown in the official
 rank table, though their rank remains stored. When they express they want to
 become an active player again, or through playing a ranked game against another
@@ -36,6 +36,31 @@ below.
 
 @l3viathan is responsible for the technical implementation of both storage and
 calculation of ranks.
+
+## Activity penalties
+
+There shall be a penalty for not playing ranked games for a longer time. This
+penalty shall only apply to active players. There shall furthermore be a fixed
+penalty for becoming inactive as to prevent players from marking themselves
+inactive to avoid penalties.
+
+In case of a temporary and pre-announced absence for reasons that make playing
+with another member impossible (e.g. business trip, hospital stay,
+participation in olympic games, ...) no penalty is applied, if the absence
+doesn't last longer than 14 days. If, contrary to expectation, the absence
+lasts longer than 14 days, the full penalty is applied.
+
+- When a player becomes inactive (except for when they become inactive through
+  the 8 week timeout), their score shall be reduced by 10 points. This is not
+  applied retroactively.
+- When a player hasn't played a ranked game in x consecutive weeks (a week
+  being the interval from Monday, 0:00 to Sunday, 24:00), their score shall be
+  reduced by x^2 points (1, 4, 9, 16, ...). After their score has been reduced
+  by 64 (for the eighth consecutive inactive week), they are automatically
+  marked as inactive and won't lose any more points from inactivity.
+
+@l3viathan is responsible for enforcing these rules by manually adjusting the
+points, or by automating the task.
 
 ## Changes to game rules
 
