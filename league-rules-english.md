@@ -44,6 +44,12 @@ penalty shall only apply to active players. There shall furthermore be a fixed
 penalty for becoming inactive as to prevent players from marking themselves
 inactive to avoid penalties.
 
+In case of a temporary and pre-announced absence for reasons that make playing
+with another member impossible (e.g. business trip, hospital stay,
+participation in olympic games, ...) no penalty is applied, if the absence
+doesn't last longer than 14 days. If, contrary to expectation, the absence
+lasts longer than 14 days, the full penalty is applied.
+
 - When a player becomes inactive (except for when they become inactive through
   the 8 week timeout), their score shall be reduced by 10 points. This is not
   applied retroactively.

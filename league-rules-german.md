@@ -46,6 +46,12 @@ Inaktivität über einen längeren Zeitraum wird durch Punktabzug bestraft. Dies
 Strafe betrifft nur aktive Mitglieder. Außerdem gibt es eine feste Strafe für
 das inaktiv werden.
 
+Bei einem temporären und vorher angekündigten Aussetzen aus Gründen, die ein
+Spielen mit einem anderen Mitglied unmöglich machen (z.B. Dienstreise,
+Krankenhausaufenthalt, Olympiateilnahme, ...), und welches nicht länger als 14
+Tage dauert, wird keine Strafe verhängt. Dauert das Aussetzen wider Erwarten
+doch länger als 14 Tage, so wird die volle Strafe nachträglich verhängt.
+
 - Wenn ein Mitglied inaktiv wird (außer dies geschieht durch die achtwöchige
   Frist), wird seine Punktzahl um 10 reduziert. Dies wird nicht nachträglich
   auf bereits inaktive Mitglieder angewendet.
